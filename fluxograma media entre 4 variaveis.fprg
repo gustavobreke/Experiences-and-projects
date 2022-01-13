@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="gusta"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-01-13 07:40:08 PM"/>
+        <attribute name="created" value="Z3VzdGE7REVTS1RPUC1UNkZDTDcwOzIwMjItMDEtMTM7MDc6MjQ6NDAgUE07Mjg1Nw=="/>
+        <attribute name="edited" value="Z3VzdGE7REVTS1RPUC1UNkZDTDcwOzIwMjItMDEtMTM7MDc6NDA6MDggUE07MTsyOTY3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, num2, num3, num4, result" type="Real" array="False" size=""/>
+            <input variable="num1"/>
+            <input variable="num2"/>
+            <input variable="num3"/>
+            <input variable="num4"/>
+            <assign variable="result" expression="(num1+num2+num3+num4)/4"/>
+            <output expression="result" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
